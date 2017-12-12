@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:id="@+id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView
+        android:id="@+id/SurfaceView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </SurfaceView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="180dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/buttonstyle"
+        android:text="SHOT">
+    </Button>
+
+    <Button
+        android:id="@+id/Camera_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="center_vertical|left|bottom"
+        android:text="Menu">
+    </Button>
+
+    <TextView
+        android:layout_width="237dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="0dp"
+        android:text="Разместите руку так, чтобы конец среднего пальца совпал с линией"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</FrameLayout>
